@@ -71,6 +71,9 @@ h3 {
       color: #fff;
    }
 
+.contenido {
+   padding-left: 1.3rem;
+}
 .seccion{
    padding-top: 5rem !important;
    padding-bottom: 5rem !important;

@@ -90,13 +90,6 @@ h3 {
    line-height: 3.5rem;
    margin-right: 1rem;
  }
- 
-.bi::before {
-   display: inline-block;
-   content: "";
-   background-image: url("data:image/svg+xml,");
-   background-repeat: no-repeat;
-   background-size: 1rem 1rem;
- }
+
  
  

@@ -1,8 +1,47 @@
+/* Asignamos las fuentes */
+body {
+   font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+   color:#868e96
+}
+/* Fijamos los tipos de las <h> */
+h1,h2,h3,h4,h5,h6 {
+	font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+	font-weight:700;
+	text-transform:uppercase;
+	color:#343a40
+}
+h1 {
+	font-size:4rem;
+	line-height:5.5rem
+}
+h2 {
+	font-size:3.5rem
+}
+h3 {
+	font-size:2rem
+}
+.subtitulo {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 1.5rem;
+}
+.texto-cv {
+   color: #bd5d38;
+ }
+.bg-sidebar {
+   background-color: #bd5d38;
+}
+
+
 #sidebar{
    flex-direction: column;
    width: 17rem;
    height: 100vh; /* 100% del alto del viewport */
-   justify-content: center; /* Centrado vertical (junto con flex-grow:0 en  navbar-collapse*/
+   justify-content: center; /* Centrado vertical (junto con flex-grow:0 en
+                               navbar-collapse) */
+   position: fixed; /*  Para que el contenido se muestre a la dcha. y la 
+                        navegación no se desplace al hacer scroll */
 }
    #sidebar img{
       max-width: 10rem;
@@ -31,6 +70,33 @@
    #sidebar a.nav-link.active{
       color: #fff;
    }
-.bg-sidebar {
-   background-color: #bd5d38;
+
+.seccion{
+   padding-top: 5rem !important;
+   padding-bottom: 5rem !important;
+   max-width: 75rem;
+   min-height: 100vh;
 }
+
+.rrss-icons a {
+   display: inline-block;
+   height: 3.5rem;
+   width: 3.5rem;
+   background-color: #495057;
+   color: #fff !important;
+   border-radius: 100%;
+   text-align: center;
+   font-size: 1.5rem;
+   line-height: 3.5rem;
+   margin-right: 1rem;
+ }
+ 
+.bi::before {
+   display: inline-block;
+   content: "";
+   background-image: url("data:image/svg+xml,");
+   background-repeat: no-repeat;
+   background-size: 1rem 1rem;
+ }
+ 
+ 

@@ -79,6 +79,8 @@ h3 {
    padding-bottom: 5rem !important;
    max-width: 75rem;
    min-height: 100vh;
+   display: flex;
+   align-items: center;
 }
 
 .rrss-icons a {
